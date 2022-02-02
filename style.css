@@ -1,0 +1,335 @@
+/* Fonts */
+@font-face {
+    font-family: "Point Free";
+    src: url("fonts/pointfree.ttf");
+}
+
+@font-face {
+    font-family: "Simple Type";
+    src: url("fonts/Simpletype.ttf");
+}
+
+@font-face {
+    font-family: "Social Media";
+    src: url("fonts/Social\ Media\ Circled.otf");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.header{
+    width: 100%;
+    height: 65px;
+    background: rgb(49, 49, 49);
+    position: fixed;
+}
+
+.logo{
+    float: left;
+    line-height: 65px;
+}
+.menu{
+    float: right;
+    line-height: 65px;
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+}
+.menu a{
+    display: block;
+    padding: 0px 20px;
+    text-decoration: none;
+    color: #000000;
+    transition: all 300ms ease;
+}
+.menu a:hover{
+    background: #ec529f;
+    color: #fff;
+}
+.menu .submenu{
+    background: #ec529f;
+    box-shadow: 3px 10px 10px rgba(0,0,0,0.2);
+    display: none;
+}
+.menu .submenu li a{
+    line-height: 50px;
+}
+.menu ul li a:hover + ul, .menu .submenu:hover{
+    display: block;
+}
+
+a {
+    transition: all 300ms ease;
+}
+
+#firstPartOfBody {
+    background: url("fondo-minimalista2.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#secondPartOfBody {
+    background: url("fondo-minimalista-parte-2.jpg");
+    background-size: 100%;
+    background-repeat: repeat;
+}
+
+#thirdPartOfBody {
+    background: url("fondo-minimalista-parte-2.jpg");
+    background-size: 100%;
+    background-repeat: repeat;
+}
+
+#quarterPartOfBody {
+    background: url("fondo-oscuro-final.jpg");
+    background-size: 100%;
+    background-repeat: repeat;
+    text-align: center;
+    color: #fff;
+}
+
+#social-media-links {
+    font-family: "Social Media";
+    font-size: 45px;
+    transition: all 100ms ease-out;
+    color: #fff;
+}
+
+.social-net {
+    color: #fff;
+}
+
+.social-net:hover {
+    color: #ff4da6;
+    
+}
+
+#title {
+    font-family: "Simple Type";
+    font-size: 100px;
+    text-align: center;
+    transition: all 1000ms ease-out;
+
+    cursor: default;
+}
+
+#youtube-icon, #web-icon, #discord-icon {
+    transition: all 500ms ease-out;
+}
+
+#youtube-icon:hover, #web-icon:hover, #discord-icon:hover {
+    color: #ff4da6;
+}
+
+#subtitle3 {
+    font-family: "Point Free";
+    font-size: 20px;
+    margin-left: 30px;
+    color: #ff4da6;
+
+    cursor: default;
+}
+
+#bar-title {
+    transition: all 500ms ease-out;
+    color: #fff;
+
+    cursor: pointer;
+}
+
+#bar-title:hover {
+    color:#ec529f;
+    transform: scale(1.1)
+}
+
+#title:hover {
+    color: #ec529f;
+    animation: moveTitle 3.5s infinite;
+}
+
+#title2 {
+    font-family: "Point Free";
+    font-size: 70px;
+    padding: 30px;
+    color: #ff4da6;
+
+    cursor: default;
+}
+
+#subtitle {
+    font-family: "Point Free";
+    text-align: center;
+    font-size: 35px;
+    transition: all 500ms ease;
+
+    cursor: default;
+}
+
+#firstParagraph {
+    font-family: "Point Free";
+    font-size: 25px;
+    text-align: center;
+
+    cursor: default;
+}
+
+#firstParagraph:hover {
+    transform: scale(0.9);
+}
+
+#secondParagraph {
+    font-family: "Point Free";
+    font-size: 25px;
+    margin: 50px;
+
+    cursor: default;
+}
+
+#secondParagraph:hover {
+    color: #fff;
+}
+
+#separator {
+    font-family: "Point Free";
+    font-size: 30px;
+    text-align: center;
+
+    cursor: default;
+}
+
+body::-webkit-scrollbar {
+    width: 8px;
+    background: rgb(49, 49, 49);
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #ec529f;
+    border-radius: 10px;
+}
+
+.aplicationTitle {
+    font-family: "Arial";
+    font-size: 65px;
+    margin-left: 100px;
+    
+    cursor: default;
+}
+
+#description {
+    font-family: "Arial";
+    font-size: 30px;
+    margin-left: 180px;
+
+    cursor: default;
+}
+
+#audio {
+    background: #932 !important;
+}
+
+.useButton {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    color: #000;
+    margin-left: 650px;
+    border-radius: 10px;
+    border: solid #000;
+    background-color: #ec529f;
+    transition: all 700ms ease;
+
+    cursor: pointer;
+}
+
+.useButton:hover {
+    border: solid #ec529f;
+    background-color: #000;
+    color: #fff;
+    transform: scale(1.20);
+}
+
+.container2 {
+    display: flex;
+    width: 700px;
+    height: 77px;
+    color: #ec529f;
+    font-size: 70px;
+    line-height: 70px;
+    overflow: hidden;
+
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 50;
+    margin: auto;
+    text-align: left;
+}
+
+.container2 ul {
+    color: rgb(241, 47, 112);
+    list-style: none;
+    padding-left: 11.5px;
+    animation: change 7s infinite;
+}
+
+.container2 ul, p {
+    margin: 0;
+}
+
+@keyframes change {
+    
+    0% { margin-top: 0; }
+    20% { margin-top: 0; }
+
+    25% { margin-top: -70px; color: rgb(248, 35, 106); }
+    50% { margin-top: -70px; color: rgb(248, 35, 106); }
+
+    55% { margin-top: -140px; color: rgb(248, 35, 106); }
+    80% { margin-top: -140px; color: rgb(248, 35, 106); }
+
+    85% { margin-top: -70px; color: rgb(248, 35, 106); }
+    95% { margin-top: -70px; color: rgb(248, 35, 106); }
+
+    100% { margin-top: 0; }
+
+}
+
+@keyframes moveTitle {
+
+    0%  { margin-left: 0px; }
+    20% { margin-left: 0px; }
+
+    30% { margin-left: -100px; }
+    50% { margin-left: -100px; }
+
+    60% { margin-left: 100px; }
+    80% { margin-left: 100px; }
+
+    90% { margin-left: 0px; }
+    100% { margin-left: 0px; }
+
+}
+
+/* Grid Container */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  
+  .grid-container > div {
+    padding: 10px;
+  }
+  
+  /* 
+    Usa un media query para hacer que el grid sea adaptable a dispositivos móviles 
+  */
+  
+  @media (max-width:600px) {
+    .grid-container {
+      grid-template-columns: auto;
+    }
+}
