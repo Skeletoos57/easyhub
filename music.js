@@ -7,7 +7,7 @@ let stopMusic = document.getElementById('stopButton');
 
 let audio = new Audio('bgmusic.mp3');
 audio.loop = true;
-// audio.play();
+audio.play();
 
 /// Adding Listeners
 
