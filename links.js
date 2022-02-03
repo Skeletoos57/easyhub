@@ -3,7 +3,7 @@
 let freeWriteButton = document.getElementById("freeWriteButton");
 let calculatorButton = document.getElementById("calculatorButton");
 let faceOrCrossButton = document.getElementById("faceOrCrossButton");
-let colorPickerButton = document.getElementById("colorPickerButton");
+let passwordGeneratorButton = document.getElementById("passwordGeneratorButton");
 let virtualAssistantButton = document.getElementById("virtualAssistantButton");
 
 /// Listeners
@@ -18,11 +18,11 @@ calculatorButton.addEventListener('click', function() {
 });
 
 faceOrCrossButton.addEventListener('click', function() {
-    window.open("/face-or-cross/facre-or-cross.html");
+    window.open("https://skeletoos57.github.io/face-or-cross");
 });
 
-colorPickerButton.addEventListener('click', function() {
-    alert("En desarrollo");
+passwordGeneratorButton.addEventListener('click', function() {
+    window.open("https://skeletoos57.github.io/password-generator");
 });
 
 virtualAssistantButton.addEventListener('click', () => {
