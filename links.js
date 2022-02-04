@@ -5,6 +5,9 @@ let calculatorButton = document.getElementById("calculatorButton");
 let faceOrCrossButton = document.getElementById("faceOrCrossButton");
 let passwordGeneratorButton = document.getElementById("passwordGeneratorButton");
 let virtualAssistantButton = document.getElementById("virtualAssistantButton");
+let counterButton = document.getElementById("counterButton");
+let watchButton = document.getElementById("watchButton");
+let easyTubeButton = document.getElementById("easyTubeButton");
 
 /// Listeners
 
@@ -28,3 +31,15 @@ passwordGeneratorButton.addEventListener('click', function() {
 virtualAssistantButton.addEventListener('click', () => {
     window.open("https://skeletoos57.github.io/mora");
 });
+
+counterButton.addEventListener('click', () => {
+    window.open("https://skeletoos57.github.io/counter");
+})
+
+watchButton.addEventListener('click', () => {
+    window.open("https://skeletoos57.github.io/watch");
+})
+
+easyTubeButton.addEventListener('click', () => {
+    window.open("https://skeletoos57.github.io/easytube");
+})
