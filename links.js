@@ -3,11 +3,12 @@
 let freeWriteButton = document.getElementById("freeWriteButton");
 let calculatorButton = document.getElementById("calculatorButton");
 let faceOrCrossButton = document.getElementById("faceOrCrossButton");
-let passwordGeneratorButton = document.getElementById("passwordGeneratorButton");
+let passwordGeneratorButton = document.getElementById("passwordGeneratorButton")
 let virtualAssistantButton = document.getElementById("virtualAssistantButton");
 let counterButton = document.getElementById("counterButton");
 let watchButton = document.getElementById("watchButton");
 let easyTubeButton = document.getElementById("easyTubeButton");
+let generateColorsButton = document.getElementById("generateColorsButton");
 
 /// Listeners
 
@@ -42,4 +43,8 @@ watchButton.addEventListener('click', () => {
 
 easyTubeButton.addEventListener('click', () => {
     window.open("https://skeletoos57.github.io/easytube");
+})
+
+generateColorsButton.addEventListener('click', () => {
+    window.open("https://skeletoos57.github.io/generate-color");
 })
