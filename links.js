@@ -14,11 +14,11 @@ let generateColorsButton = document.getElementById("generateColorsButton");
 
 // Aplications Buttons 
 freeWriteButton.addEventListener('click', function() {
-    alert("En desarrollo");
+    window.open("https://skeletoos57.github.io/the-impossible-writing");
 });
 
 calculatorButton.addEventListener('click', function() {
-    window.open("https://skeletoos57.github.io/the-impossible-writing");
+    alert("En desarrollo");
 });
 
 faceOrCrossButton.addEventListener('click', function() {
