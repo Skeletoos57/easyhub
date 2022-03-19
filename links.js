@@ -18,7 +18,7 @@ freeWriteButton.addEventListener('click', function() {
 });
 
 calculatorButton.addEventListener('click', function() {
-    alert("En desarrollo");
+    window.open("https://skeletoos57.github.io/the-impossible-writing");
 });
 
 faceOrCrossButton.addEventListener('click', function() {
